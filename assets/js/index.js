@@ -113,6 +113,12 @@ settingsBut.addEventListener(`click`, function () {
   settingsSidebar.classList.toggle("translate-x-full");
 });
 
+const closesettings = document.getElementById("close-settings");
+closesettings.addEventListener(`click`, function () {
+  settingsSidebar.classList.toggle("translate-full");
+  settingsSidebar.classList.toggle("translate-x-full");
+});
+
 // ================== تغير الوان الخط ===================
 const butColor1 = document.querySelectorAll(".but-color");
 
